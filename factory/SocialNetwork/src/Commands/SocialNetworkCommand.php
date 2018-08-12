@@ -3,8 +3,8 @@ namespace SocialNetwork\Commands;
 
 use SocialNetwork\Exceptions\NetworkException;
 use SocialNetwork\DbModel\DbConnect;
-use SocialNetwork\Facebook\FacebookPoster;
-use SocialNetwork\Vk\VkPoster;
+use SocialNetwork\SocialNetworks\Facebook\FacebookPoster;
+use SocialNetwork\SocialNetworks\Vk\VkPoster;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
